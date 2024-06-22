@@ -1,14 +1,266 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frm_info"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".InfoFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_info" />
+        android:padding="0dp">
 
+        <TextView
+            style="@style/TitleFragment"
+            android:id="@+id/head_title_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/head_title_info"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Scrollable Content -->
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/head_title_info"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <!-- Card 1 -->
+                <LinearLayout
+                    android:id="@+id/news_group_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+
+                    <ImageView
+                        android:id="@+id/news_image_1"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginTop="16dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/potensi_sumber_daya_kelautan_indonesia" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginStart="16dp">
+
+                        <TextView
+                            android:id="@+id/news_heading_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Potensi Sumber Daya Kelautan Indonesia"
+                            android:textSize="16sp"
+                            android:paddingRight="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/news_body_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:paddingRight="10dp"
+                            android:text="Indonesia memiliki potensi sumber daya kelautan yang sangat besar,
+                            termasuk keanekaragaman hayati dan sumber daya alam yang melimpah."
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Card 2 -->
+                <LinearLayout
+                    android:id="@+id/news_group_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/news_image_2"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginTop="16dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sun" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginStart="16dp">
+
+                        <TextView
+                            android:id="@+id/news_heading_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Informasi Laut yang Perlu di Lindungi"
+                            android:textSize="16sp"
+                            android:paddingRight="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/news_body_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:paddingRight="10dp"
+                            android:text="Laut adalah sumber daya alam yang sangat penting bagi kehidupan manusia. Laut menyediakan berbagai macam manfaat, seperti makanan, sumber mata pencaharian, obat-obatan, dan oksigen."
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Card 3 -->
+                <LinearLayout
+                    android:id="@+id/news_group_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/news_image_3"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginTop="16dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ikann" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginStart="16dp">
+
+                        <TextView
+                            android:id="@+id/news_heading_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Informasi Penyebab Kerusakan Pada Laut"
+                            android:textSize="16sp"
+                            android:paddingRight="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/news_body_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:paddingRight="10dp"
+                            android:text="Penyebab: Pencemaran, penangkapan ikan berlebihan, kerusakan habitat, perubahan iklim. Dampak: Hilangnya biota laut, air laut tercemar, bencana alam,dampak sosial ekonomi."
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Card 4 -->
+                <LinearLayout
+                    android:id="@+id/news_group_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/news_image_4"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginTop="16dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ikan_laut" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginStart="16dp">
+
+                        <TextView
+                            android:id="@+id/news_heading_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Informasi Menjaga Laut"
+                            android:textSize="16sp"
+                            android:paddingRight="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/news_body_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:paddingRight="10dp"
+                            android:text="Laut bagaikan paru-paru bumi, menopang kehidupan dan keseimbangan alam. Namun, kini kesehatannya terancam oleh berbagai aktivitas manusia.Pencemaran: Sampah plastik, limbah industri."
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Card 5 -->
+                <LinearLayout
+                    android:id="@+id/news_group_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/news_image_5"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginTop="16dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/paus" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_marginStart="16dp">
+
+                        <TextView
+                            android:id="@+id/news_heading_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Informasi Dampak Menjaga Laut"
+                            android:textSize="16sp"
+                            android:paddingRight="10dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/news_body_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:paddingRight="10dp"
+                            android:text="Hilangnya Keanekaragaman hayati laut,Gangguan keseimbangan ekosistem laut,Bencana alam seperti abrasi pantai dan banjir rob,Kerugian ekonomi bagi masyarakat pesisir."
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
