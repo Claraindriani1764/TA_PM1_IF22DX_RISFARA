@@ -5,10 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recyclerviewkotlin.AdapterClass
 
-// TODO: Rename parameter arguments, choose names that match
+
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
@@ -25,7 +26,6 @@ class SpesiesFragment : Fragment() {
     lateinit var imageList: Array<Int>
     lateinit var titleList: Array<String>
 
-    // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
 
@@ -34,11 +34,50 @@ class SpesiesFragment : Fragment() {
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
-
-
-
         }
+
+        imageList = arrayOf(
+            R.drawable.dugong,
+            R.drawable.lumba,
+            R.drawable.paus,
+            R.drawable.penyu,
+            R.drawable.pauss,
+            R.drawable.parimanta,
+            R.drawable.penguin,
+            R.drawable.gurita,
+            R.drawable.ikankarang,
+            R.drawable.hiu
+        )
+
+        titleList = arrayOf(
+            "Tentang Dugong",
+            "Tentang Lumba-Lumba",
+            "Tentang Paus",
+            "Tentang Penyu",
+            "Tentang Hiu Paus",
+            "Tentang Pari manta",
+            "Tentang Penguin",
+            "Tentang Gurita",
+            "Tentang Ikan Karang",
+            "Tentang Hiu"
+        )
+
+        recyclerView = findViewById()
+        recyclerView.layoutManager = LinearLayoutManager()
+        recyclerView.setHasFixedSize(true)
+
+        dataList = arrayListOf<DataClassspesies>()
+
     }
+
+    private fun LinearLayoutManager(): LinearLayoutManager {
+        TODO("Not yet implemented")
+    }
+
+    private fun findViewById(): RecyclerView {
+        TODO("Not yet implemented")
+    }
+
 
     private fun getData(){
         for (i in imageList.indices){
@@ -65,7 +104,6 @@ class SpesiesFragment : Fragment() {
          * @param param2 Parameter 2.
          * @return A new instance of fragment SpesiesFragment.
          */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             SpesiesFragment().apply {
