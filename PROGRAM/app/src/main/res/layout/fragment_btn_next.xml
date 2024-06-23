@@ -40,6 +40,22 @@
                 android:src="@drawable/laut2" />
         </FrameLayout>
 
+        <ScrollView
+            android:layout_width="400dp"
+            android:layout_height="317dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/art_SeaInfo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+            </LinearLayout>
+        </ScrollView>
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
