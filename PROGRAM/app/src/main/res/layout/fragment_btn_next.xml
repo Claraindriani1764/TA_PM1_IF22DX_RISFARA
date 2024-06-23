@@ -116,6 +116,22 @@
                     android:fontFamily="@font/poppins_semibold"
                     android:text="@string/informasi_text5a" />
 
+                <TextView
+                    android:id="@+id/text_informasi6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_extrabold"
+                    android:text="@string/informasi_text6"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/text_informasi6a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/informasi_text6a" />
+
             </LinearLayout>
         </ScrollView>
 
