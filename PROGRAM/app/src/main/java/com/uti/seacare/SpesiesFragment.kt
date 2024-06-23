@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.recyclerviewkotlin.AdapterClass
+
 
 
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -84,7 +84,7 @@ class SpesiesFragment : Fragment() {
             val dataClassspesies = DataClassspesies(imageList[i], titleList[i])
             dataList.add(dataClassspesies)
         }
-        recyclerView.adapter = AdapterClass(dataList)
+        recyclerView.adapter = AdapterSpesies(dataList)
     }
 
     override fun onCreateView(
