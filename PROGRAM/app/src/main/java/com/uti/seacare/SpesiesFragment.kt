@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
+import com.example.recyclerviewkotlin.AdapterClass
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -17,6 +19,12 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class SpesiesFragment : Fragment() {
+
+    private lateinit var recyclerView: RecyclerView
+    private lateinit var dataList: ArrayList<DataClassspesies>
+    lateinit var imageList: Array<Int>
+    lateinit var titleList: Array<String>
+
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -26,7 +34,18 @@ class SpesiesFragment : Fragment() {
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
+
+
+
         }
+    }
+
+    private fun getData(){
+        for (i in imageList.indices){
+            val dataClassspesies = DataClassspesies(imageList[i], titleList[i])
+            dataList.add(dataClassspesies)
+        }
+        recyclerView.adapter = AdapterClass(dataList)
     }
 
     override fun onCreateView(
