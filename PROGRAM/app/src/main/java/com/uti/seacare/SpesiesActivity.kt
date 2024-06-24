@@ -47,6 +47,13 @@ class SpesiesActivity : AppCompatActivity() {
             "Tentang Ikan Karang",
             "Tentang Hiu"
         )
+        recyclerView = findViewById(R.id.recyclerView)
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.setHasFixedSize(true)
+
+        dataList = arrayListOf<DataClass>()
+        getData()
+
 
 
     }
