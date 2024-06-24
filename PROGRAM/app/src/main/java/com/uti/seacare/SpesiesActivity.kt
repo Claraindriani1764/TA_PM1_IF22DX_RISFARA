@@ -54,9 +54,31 @@ class SpesiesActivity : AppCompatActivity() {
         dataList = arrayListOf<DataClass>()
         getData()
 
-
-
+        val bottomNav = findViewById<BottomNavigationView>(R.id.bottomNav)
+        bottomNav.setOnItemSelectedListener { menuItem ->
+            when (menuItem.itemId) {
+                R.id.home -> {
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                    finish() // Optional: Close current activity
+                }
+                R.id.spesies -> {
+                    // Already in this activity
+                }
+                R.id.info -> {
+                    val intent = Intent(this, MainActivity::class.java)
+                    intent.putExtra("fragment", "info")
+                    startActivity(intent)
+                    finish() // Optional: Close current activity
+                }
+                else -> {
+                }
+            }
+            true
+        }
     }
+
+
 
     private fun getData() {
         for (i in imageList.indices) {
