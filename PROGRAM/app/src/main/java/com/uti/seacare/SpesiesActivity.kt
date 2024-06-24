@@ -18,6 +18,9 @@ class SpesiesActivity : AppCompatActivity() {
     private lateinit var dataList: ArrayList<DataClass>
     lateinit var imageList:Array<Int>
     lateinit var titleList:Array<String>
+    lateinit var descList:Array<String>
+    lateinit var detailImageList: Array<Int>
+    private lateinit var myAdapter: AdapterClass
     private lateinit var searchView: SearchView
     private lateinit var searchList: ArrayList<DataClass>
 
@@ -51,6 +54,31 @@ class SpesiesActivity : AppCompatActivity() {
             "Tentang Ikan Karang",
             "Tentang Hiu"
         )
+        descList = arrayOf(
+            getString(R.string.Dugong),
+            getString(R.string.Lumba),
+            getString(R.string.Paus),
+            getString(R.string.Penyu),
+            getString(R.string.HiuPaus),
+            getString(R.string.PariManta),
+            getString(R.string.Penguin),
+            getString(R.string.Gurita),
+            getString(R.string.IkanKarang),
+            getString(R.string.Hiu))
+
+        detailImageList = arrayOf(
+            R.drawable.dugongframe,
+            R.drawable.lumbaframe,
+            R.drawable.pausframe,
+            R.drawable.penyuframe,
+            R.drawable.hiupausframe,
+            R.drawable.parimantaframe,
+            R.drawable.penguinframe,
+            R.drawable.guritaframe,
+            R.drawable.karangframe,
+            R.drawable.hiuframe
+        )
+
         recyclerView = findViewById(R.id.recyclerView)
         searchView = findViewById(R.id.search)
         recyclerView.layoutManager = LinearLayoutManager(this)
@@ -109,13 +137,22 @@ class SpesiesActivity : AppCompatActivity() {
             }
             true
         }
+
+        myAdapter  = AdapterClass(searchList)
+        recyclerView.adapter = myAdapter
+
+        myAdapter.onItemClick = {
+            val intent = Intent(this, DetailActivityspesies::class.java)
+            intent.putExtra("android",it)
+            startActivity(intent)
+        }
     }
 
 
 
     private fun getData() {
         for (i in imageList.indices) {
-            val dataClass = DataClass(imageList[i], titleList[i])
+            val dataClass = DataClass(imageList[i], titleList[i], descList[i], detailImageList[i])
             dataList.add(dataClass)
     }
         searchList.addAll(dataList)
