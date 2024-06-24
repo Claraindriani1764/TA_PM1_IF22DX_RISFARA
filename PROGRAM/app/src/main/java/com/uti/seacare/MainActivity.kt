@@ -1,5 +1,6 @@
 package com.uti.seacare
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -16,21 +17,36 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         replaceFragment(HomeFragment())
 
-        binding.bottomNav.setOnItemSelectedListener {
-            when(it.itemId){
+        // Check if the activity was started with a specific fragment in mind
+        val fragmentName = intent.getStringExtra("fragment")
+        if (fragmentName != null) {
+            when (fragmentName) {
+                "home" -> replaceFragment(HomeFragment())
+                "info" -> replaceFragment(InfoFragment())
+                else -> replaceFragment(HomeFragment())
+            }
+        } else {
+            replaceFragment(HomeFragment())
+        }
+
+        binding.bottomNav.setOnItemSelectedListener { menuItem ->
+            when (menuItem.itemId) {
                 R.id.home -> replaceFragment(HomeFragment())
-                R.id.spesies -> replaceFragment(SpesiesFragment())
+                R.id.spesies -> {
+                    // Intent untuk membuka SpesiesActivity
+                    val intent = Intent(this, SpesiesActivity::class.java)
+                    startActivity(intent)
+                }
                 R.id.info -> replaceFragment(InfoFragment())
-
-                else ->{
-
-
+                else -> {
+                    // Kode untuk item menu lainnya
                 }
             }
             true
         }
     }
-    private fun replaceFragment(fragment: Fragment){
+
+    private fun replaceFragment(fragment: Fragment) {
         val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction().addToBackStack(null)
         fragmentTransaction.replace(R.id.frm_layout, fragment)
