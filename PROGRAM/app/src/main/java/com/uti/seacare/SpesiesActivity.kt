@@ -4,11 +4,13 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.SearchView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import java.util.Locale
 
 class SpesiesActivity : AppCompatActivity() {
 
@@ -16,6 +18,8 @@ class SpesiesActivity : AppCompatActivity() {
     private lateinit var dataList: ArrayList<DataClass>
     lateinit var imageList:Array<Int>
     lateinit var titleList:Array<String>
+    private lateinit var searchView: SearchView
+    private lateinit var searchList: ArrayList<DataClass>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,11 +52,40 @@ class SpesiesActivity : AppCompatActivity() {
             "Tentang Hiu"
         )
         recyclerView = findViewById(R.id.recyclerView)
+        searchView = findViewById(R.id.search)
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.setHasFixedSize(true)
 
         dataList = arrayListOf<DataClass>()
+        searchList = arrayListOf<DataClass>()
         getData()
+
+        searchView.clearFocus()
+        searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(query: String?): Boolean {
+                searchView.clearFocus()
+                return true
+            }
+
+            override fun onQueryTextChange(newText: String?): Boolean {
+                searchList.clear()
+                val searchText = newText!!.toLowerCase(Locale.getDefault())
+                if (searchText.isNotEmpty()) {
+                    dataList.forEach {
+                        if (it.dataTitle.toLowerCase(Locale.getDefault()).contains(searchText)) {
+                            searchList.add(it)
+                        }
+                    }
+                    recyclerView.adapter!!.notifyDataSetChanged()
+                } else {
+                    searchList.clear()
+                    searchList.addAll(dataList)
+                    recyclerView.adapter!!.notifyDataSetChanged()
+                }
+                return false
+            }
+
+        })
 
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_nav)
         bottomNav.setOnItemSelectedListener { menuItem ->
@@ -85,6 +118,7 @@ class SpesiesActivity : AppCompatActivity() {
             val dataClass = DataClass(imageList[i], titleList[i])
             dataList.add(dataClass)
     }
-        recyclerView.adapter = AdapterClass(dataList)
+        searchList.addAll(dataList)
+        recyclerView.adapter = AdapterClass(searchList)
     }
     }
