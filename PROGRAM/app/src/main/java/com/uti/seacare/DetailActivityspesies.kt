@@ -20,6 +20,8 @@ class DetailActivityspesies : AppCompatActivity() {
             val detailTitle: TextView = findViewById(R.id._detailTitle)
             val detailDesc: TextView = findViewById(R.id.detailDesc)
             val detailImage: ImageView = findViewById(R.id._imageDetail)
+
+
             detailTitle.text = getData.dataTitle
             detailDesc.text = getData.dataDesc
             detailImage.setImageResource(getData.dataDetailImage)
