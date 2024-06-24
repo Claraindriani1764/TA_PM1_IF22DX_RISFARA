@@ -54,7 +54,7 @@ class SpesiesActivity : AppCompatActivity() {
         dataList = arrayListOf<DataClass>()
         getData()
 
-        val bottomNav = findViewById<BottomNavigationView>(R.id.bottomNav)
+        val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_nav)
         bottomNav.setOnItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.home -> {
