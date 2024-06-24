@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         replaceFragment(HomeFragment())
 
-        // Check if the activity was started with a specific fragment in mind
+
         val fragmentName = intent.getStringExtra("fragment")
         if (fragmentName != null) {
             when (fragmentName) {
