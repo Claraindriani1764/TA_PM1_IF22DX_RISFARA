@@ -4,6 +4,7 @@
     <string name="hello_info">Hello Info Fragment</string>
     <string name="hello_spesies">Hello Spesies Fragment</string>
     <string name="hello_home">Hello home Fragment</string>
+<!--<<<<<<< HEAD-->
     <string name="isiTextHome">Indonesia merupakan negara kepulauan terbesar di dunia dengan garis pantai sepanjang 90.972 km. Luas laut Indonesia mencapai 3.257.357 km2, jauh lebih luas dibandingkan daratannya yang hanya 1.904.569 km2. Hal ini menjadikan Indonesia sebagai negara maritim dengan potensi kelautan yang sangat besar.</string>
     <string name="informasi_text">1. Laut di Indonesia</string>
     <string name="informasi_text2">Menurut Kementerian Kelautan dan Perikanan, terdapat beberapa laut di Indonesia, yaitu: Laut Jawa, Laut Natuna Utara, Laut Sulawesi, Laut Maluku, Laut Banda, Laut Arafura, Laut Flores, Laut Sawu, Laut Timor, Laut Seram, Laut Halmahera.</string>
@@ -22,4 +23,36 @@
         Penegakan hukum terhadap pelanggaran laut, Edukasi masyarakat dan melibatkan mereka dalam pelestarian, Mengembangkan ekonomi biru yang ramah lingkungan, Penelitian dan pengembangan untuk solusi pelestarian, Kerjasama internasional untuk mengatasi masalah lintas batas.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello BtnNext fragment</string>
+=======
+
+    <string name="Dugong">
+        Dugong (Dugong dugon) adalah mamalia laut herbivora yang tersebar di perairan hangat dan dangkal di sepanjang perairan Indo-Pasifik, termasuk di beberapa wilayah di Indonesia seperti Papua, Sulawesi, dan Kalimantan. Mereka merupakan satu-satunya spesies dalam famili Dugongidae dan terancam punah karena berbagai faktor. Ancaman utama terhadap dugong
+        termasuk hilangnya habitat padang lamun yang merupakan sumber makanan utama mereka, serta perburuan langsung untuk daging dan minyak yang dianggap memiliki nilai komersial. Perubahan iklim juga mengancam kondisi habitat mereka, sementara polusi laut seperti limbah plastik dapat menyebabkan keracunan dan cedera fisik pada dugong.
+        Upaya konservasi untuk dugong mencakup pendirian kawasan perlindungan laut yang meliputi habitat padang lamun yang penting bagi mereka, pengawasan ketat terhadap perburuan ilegal, rehabilitasi habitat yang rusak, serta penelitian untuk memahami lebih baik kebutuhan ekologi dan perilaku dugong. Pendidikan kepada masyarakat lokal dan nelayan tentang pentingnya menjaga populasi dugong dan ekosistem padang lamun juga krusial untuk memastikan kelangsungan hidup spesies ini.
+    </string>
+
+    <string name="Penyu">
+        Penyu adalah reptil laut yang memiliki berbagai spesies seperti penyu hijau, penyu sisik, dan penyu belimbing, tersebar di berbagai perairan tropis dan subtropis di seluruh dunia. Ancaman utama terhadap penyu berasal dari aktivitas manusia, seperti perburuan untuk telur, daging, dan cangkangnya yang digunakan dalam industri makanan dan obat-obatan tradisional. Telur penyu sering diburu untuk dikonsumsi karena dianggap lezat dan memiliki nilai gizi tinggi, sedangkan cangkang dan produk lainnya dimanfaatkan untuk kerajinan dan obat-obatan. Kehilangan habitat juga menjadi masalah serius bagi penyu, terutama akibat pembangunan pantai, perubahan iklim, dan degradasi ekosistem padang lamun tempat mereka bertelur dan mencari makanan.
+        Upaya konservasi yang efektif untuk penyu meliputi pendirian taman laut dan kawasan konservasi, pengawasan ketat terhadap perburuan ilegal, rehabilitasi habitat penyu, serta edukasi masyarakat tentang pentingnya melestarikan habitat alami penyu dan melarang pengambilan telur serta produk penyu.
+    </string>
+
+    <string name="Paus">
+    Paus adalah mamalia laut besar yang mencakup paus bergigi (Odontoceti) dan paus balin (Mysticeti). Sejarah perburuan komersial telah menyebabkan beberapa spesies paus mendekati kepunahan, meskipun sebagian besar dari mereka sekarang dilindungi di bawah perjanjian internasional. Ancaman lain termasuk penangkapan tidak sengaja dalam alat tangkap ikan, polusi suara dari aktivitas manusia seperti eksplorasi minyak dan gas, serta kerusakan habitat laut akibat perubahan iklim dan pencemaran. Upaya konservasi yang diperlukan mencakup pengembangan kawasan lindung laut yang meliputi migrasi dan habitat paus, pengawasan ketat terhadap perburuan dan perdagangan produk paus, serta pendidikan masyarakat tentang pentingnya pelestarian keanekaragaman hayati laut dan pengurangan dampak aktivitas manusia terhadap lingkungan laut.
+    </string>
+
+    <string name="HiuPaus">
+        Ikan hiu paus (Rhincodon typus) adalah salah satu dari sedikit spesies hiu yang merupakan pemakan plankton, dengan ukuran tubuh yang besar dan tersebar di perairan tropis dan subtropis di seluruh dunia.
+        Ancaman terbesar bagi ikan hiu paus berasal dari perburuan komersial untuk siripnya yang memiliki nilai ekonomis tinggi di pasar internasional. Meskipun perlindungan internasional telah diberlakukan, perburuan ilegal masih terjadi, terutama di perairan yang sulit diawasi. Selain itu, perubahan iklim dan polusi laut juga mempengaruhi sumber makanan utama ikan hiu paus, yaitu plankton. Upaya konservasi yang penting meliputi pelaksanaan larangan internasional terhadap perburuan hiu paus, peningkatan patroli dan penegakan hukum untuk mengurangi perburuan ilegal, promosi pariwisata berkelanjutan yang mengedepankan observasi hiu paus, serta penelitian untuk memahami lebih baik perilaku migrasi dan ekologi ikan hiu paus.
+    </string>
+
+    <string name="PariManta">
+        Ikan pari manta (Manta spp.) adalah pari besar yang dikenal dengan sirip dada yang lebar dan pola spot khas di tubuhnya. Mereka adalah pemakan plankton dan tersebar luas di perairan tropis dan subtropis di seluruh dunia. Ancaman terhadap ikan pari manta termasuk perburuan untuk insangnya yang digunakan dalam obat tradisional di beberapa budaya, meskipun perlindungan internasional telah diberlakukan. Selain itu, penangkapan tidak sengaja dalam jaring ikan yang ditujukan untuk menangkap ikan komersial lainnya juga merupakan ancaman serius. Upaya konservasi yang diperlukan mencakup penegakan larangan perdagangan internasional insang manta, pengembangan kawasan lindung laut yang melindungi habitat manta, pengurangan pencemaran laut dan penangkapan ikan secara tidak sengaja, serta
+        kampanye edukasi untuk mengubah perilaku konsumen terhadap produk-produk yang berasal dari spesies ini.
+    </string>
+
+    <string name="Lumba">
+        Lumba-lumba adalah mamalia laut cerdas yang sering ditemukan dalam kelompok sosial yang terstruktur di berbagai perairan hangat dan dingin di seluruh dunia. Ancaman terhadap lumba-lumba termasuk penangkapan tidak sengaja dalam jaring ikan yang ditujukan untuk menangkap ikan komersial lainnya, serta perburuan langsung untuk daging atau untuk tujuan komersial lainnya seperti atraksi wisata. Penangkapan ini sering kali tidak hanya mengancam individu yang tertangkap tetapi juga populasi lumba-lumba secara keseluruhan. Upaya konservasi yang dapat dilakukan meliputi pendirian kawasan lindung laut yang melindungi habitat penting lumba-lumba, pengawasan ketat terhadap praktek tangkapan ikan yang merugikan mamalia laut,
+        promosi pariwisata berkelanjutan yang mengedepankan observasi alam daripada interaksi langsung dengan satwa liar, serta edukasi kepada masyarakat lokal tentang pentingnya menjaga populasi mamalia laut ini untuk keseimbangan ekosistem laut yang utuh.
+    </string>
+>>>>>>> 4bba84863205516adf0b14b0a0403dade2830c29
 </resources>
