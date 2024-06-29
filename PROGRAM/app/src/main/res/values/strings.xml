@@ -5,6 +5,9 @@
     <string name="hello_spesies">Hello Spesies Fragment</string>
     <string name="hello_home">Hello home Fragment</string>
 <!--<<<<<<< HEAD-->
+<!--<<<<<<< HEAD-->
+=======
+>>>>>>> 4b951c2abffb95f51fb4db4962f0ada1c72ff7f1
     <string name="isiTextHome">Indonesia merupakan negara kepulauan terbesar di dunia dengan garis pantai sepanjang 90.972 km. Luas laut Indonesia mencapai 3.257.357 km2, jauh lebih luas dibandingkan daratannya yang hanya 1.904.569 km2. Hal ini menjadikan Indonesia sebagai negara maritim dengan potensi kelautan yang sangat besar.</string>
     <string name="informasi_text">1. Laut di Indonesia</string>
     <string name="informasi_text2">Menurut Kementerian Kelautan dan Perikanan, terdapat beberapa laut di Indonesia, yaitu: Laut Jawa, Laut Natuna Utara, Laut Sulawesi, Laut Maluku, Laut Banda, Laut Arafura, Laut Flores, Laut Sawu, Laut Timor, Laut Seram, Laut Halmahera.</string>
@@ -23,6 +26,7 @@
         Penegakan hukum terhadap pelanggaran laut, Edukasi masyarakat dan melibatkan mereka dalam pelestarian, Mengembangkan ekonomi biru yang ramah lingkungan, Penelitian dan pengembangan untuk solusi pelestarian, Kerjasama internasional untuk mengatasi masalah lintas batas.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello BtnNext fragment</string>
+<!--<<<<<<< HEAD-->
 =======
 
     <string name="Dugong">
@@ -54,9 +58,9 @@
         Lumba-lumba adalah mamalia laut cerdas yang sering ditemukan dalam kelompok sosial yang terstruktur di berbagai perairan hangat dan dingin di seluruh dunia. Ancaman terhadap lumba-lumba termasuk penangkapan tidak sengaja dalam jaring ikan yang ditujukan untuk menangkap ikan komersial lainnya, serta perburuan langsung untuk daging atau untuk tujuan komersial lainnya seperti atraksi wisata. Penangkapan ini sering kali tidak hanya mengancam individu yang tertangkap tetapi juga populasi lumba-lumba secara keseluruhan. Upaya konservasi yang dapat dilakukan meliputi pendirian kawasan lindung laut yang melindungi habitat penting lumba-lumba, pengawasan ketat terhadap praktek tangkapan ikan yang merugikan mamalia laut,
         promosi pariwisata berkelanjutan yang mengedepankan observasi alam daripada interaksi langsung dengan satwa liar, serta edukasi kepada masyarakat lokal tentang pentingnya menjaga populasi mamalia laut ini untuk keseimbangan ekosistem laut yang utuh.
     </string>
-<<<<<<< HEAD
->>>>>>> 4bba84863205516adf0b14b0a0403dade2830c29
-=======
+<!--<<<<<<< HEAD-->
+<!--&gt;>>>>>> 4bba84863205516adf0b14b0a0403dade2830c29-->
+<!--=======-->
 
 
     <string name="Penguin">
@@ -81,4 +85,6 @@
     </string>
 
 >>>>>>> 80e80896fe862b370601fe235dac34257311aaf5
+=======
+>>>>>>> 4b951c2abffb95f51fb4db4962f0ada1c72ff7f1
 </resources>
