@@ -4,4 +4,22 @@
     <string name="hello_info">Hello Info Fragment</string>
     <string name="hello_spesies">Hello Spesies Fragment</string>
     <string name="hello_home">Hello home Fragment</string>
+    <string name="isiTextHome">Indonesia merupakan negara kepulauan terbesar di dunia dengan garis pantai sepanjang 90.972 km. Luas laut Indonesia mencapai 3.257.357 km2, jauh lebih luas dibandingkan daratannya yang hanya 1.904.569 km2. Hal ini menjadikan Indonesia sebagai negara maritim dengan potensi kelautan yang sangat besar.</string>
+    <string name="informasi_text">1. Laut di Indonesia</string>
+    <string name="informasi_text2">Menurut Kementerian Kelautan dan Perikanan, terdapat beberapa laut di Indonesia, yaitu: Laut Jawa, Laut Natuna Utara, Laut Sulawesi, Laut Maluku, Laut Banda, Laut Arafura, Laut Flores, Laut Sawu, Laut Timor, Laut Seram, Laut Halmahera.</string>
+    <string name="informasi_text3">2. Luas Laut</string>
+    <string name="informasi_text3a">Laut terluas di Indonesia adalah Laut Cina Selatan dengan luas mencapai 1.652.000 km2. Disusul oleh Laut Arafura (1.033.000 km2) dan Laut Maluku (975.000 km2).</string>
+    <string name="informasi_text4">3. Kedalaman Laut</string>
+    <string name="informasi_text4a">Laut terdalam di Indonesia adalah Laut Banda dengan kedalaman mencapai 7.238 meter. Disusul oleh Laut Sulawesi (5.100 meter) dan Laut Flores (4.900 meter).</string>
+    <string name="informasi_text5">4. Keanekaragaman Hayati</string>
+    <string name="informasi_text5a">Laut di Indonesia memiliki keanekaragaman hayati yang sangat tinggi. Hal ini menjadikan Indonesia sebagai salah satu pusat keanekaragaman hayati laut di dunia. Menurut Kementerian Kelautan dan Perikanan, terdapat sekitar 5.500 spesies ikan, 3.200 spesies terumbu karang, dan 600 spesies moluska di laut Indonesia.</string>
+    <string name="informasi_text6">5. Potensi Ekonomi</string>
+    <string name="informasi_text6a">Laut di Indonesia memiliki potensi ekonomi yang sangat besar. Sektor kelautan dan perikanan merupakan salah satu sektor penyumbang Produk Domestik Bruto (PDB) terbesar di Indonesia. Selain itu, laut juga menjadi sumber daya alam yang penting untuk berbagai sektor, seperti pariwisata, industri, dan energi.</string>
+    <string name="informasi_text7">6. Tantangan</string>
+    <string name="informasi_text7a">Meskipun memiliki potensi besar, laut di Indonesia juga menghadapi berbagai tantangan, seperti pencemaran laut, penangkapan ikan berlebihan, dan kerusakan terumbu karang. Untuk itu, diperlukan upaya pengelolaan laut yang berkelanjutan agar laut Indonesia dapat terus memberikan manfaat bagi generasi sekarang dan mendatang.</string>
+    <string name="informasi_text8">7. Upaya Pelestarian Laut</string>
+    <string name="informasi_text8a">Laut Indonesia kaya akan biota laut dan penting bagi masyarakat, namun terancam oleh penangkapan ikan berlebihan, polusi dan perubahan iklim.  Upaya pelestariannya meliputi:
+        Penegakan hukum terhadap pelanggaran laut, Edukasi masyarakat dan melibatkan mereka dalam pelestarian, Mengembangkan ekonomi biru yang ramah lingkungan, Penelitian dan pengembangan untuk solusi pelestarian, Kerjasama internasional untuk mengatasi masalah lintas batas.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello BtnNext fragment</string>
 </resources>
