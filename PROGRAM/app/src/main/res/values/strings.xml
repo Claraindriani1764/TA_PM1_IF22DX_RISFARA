@@ -54,5 +54,31 @@
         Lumba-lumba adalah mamalia laut cerdas yang sering ditemukan dalam kelompok sosial yang terstruktur di berbagai perairan hangat dan dingin di seluruh dunia. Ancaman terhadap lumba-lumba termasuk penangkapan tidak sengaja dalam jaring ikan yang ditujukan untuk menangkap ikan komersial lainnya, serta perburuan langsung untuk daging atau untuk tujuan komersial lainnya seperti atraksi wisata. Penangkapan ini sering kali tidak hanya mengancam individu yang tertangkap tetapi juga populasi lumba-lumba secara keseluruhan. Upaya konservasi yang dapat dilakukan meliputi pendirian kawasan lindung laut yang melindungi habitat penting lumba-lumba, pengawasan ketat terhadap praktek tangkapan ikan yang merugikan mamalia laut,
         promosi pariwisata berkelanjutan yang mengedepankan observasi alam daripada interaksi langsung dengan satwa liar, serta edukasi kepada masyarakat lokal tentang pentingnya menjaga populasi mamalia laut ini untuk keseimbangan ekosistem laut yang utuh.
     </string>
+<<<<<<< HEAD
 >>>>>>> 4bba84863205516adf0b14b0a0403dade2830c29
+=======
+
+
+    <string name="Penguin">
+   Penguin adalah burung laut yang khas dan hanya dapat ditemukan di belahan bumi bagian selatan, terutama di wilayah Antartika dan pulau-pulau sekitarnya. Mereka hidup di lingkungan yang ekstrem, terbiasa dengan cuaca dingin dan es laut. Ancaman terbesar bagi penguin saat ini adalah perubahan iklim yang cepat di wilayah Antartika. Peningkatan suhu menyebabkan pencairan es laut yang menjadi rumah dan tempat berkembang biak bagi sebagian besar spesies penguin. Perubahan ini juga mempengaruhi pola makan mereka karena menyebabkan perubahan distribusi krill dan ikan, sumber utama makanan penguin. Polusi plastik juga menjadi masalah serius di habitat penguin, dengan sampah plastik yang mengancam kesehatan mereka dan dapat menyebabkan kematian akibat tertelan atau terjerat. Selain itu, kegiatan manusia seperti perburuan ikan di perairan sekitar tempat tinggal penguin juga dapat mengurangi ketersediaan makanan mereka. Upaya pelestarian penguin
+        mencakup pendirian kawasan lindung laut yang melindungi habitat penting mereka, penelitian untuk memahami dampak perubahan iklim dan polusi terhadap populasi penguin, serta kampanye edukasi untuk meningkatkan kesadaran masyarakat tentang perlunya menjaga lingkungan Antartika dan Arktik sebagai rumah bagi penguin dan spesies lainnya. Dengan langkah-langkah ini, diharapkan dapat memastikan kelangsungan hidup penguin dalam menghadapi tantangan yang semakin besar dari perubahan iklim dan aktivitas manusia
+    </string>
+
+    <string name="Gurita">
+       Gurita adalah invertebrata laut cerdas yang mendiami berbagai habitat di laut dalam maupun di perairan dangkal di seluruh dunia. Ancaman terbesar yang dihadapi gurita adalah perburuan berlebihan untuk konsumsi manusia. Gurita sering kali ditangkap untuk dijual sebagai makanan lezat atau sebagai hewan peliharaan, seperti dalam industri akuarium. Praktik perburuan yang tidak berkelanjutan ini dapat mengancam populasi gurita secara signifikan, terutama karena mereka memiliki reproduksi yang lambat dan umur panjang. Selain itu, polusi laut seperti limbah plastik juga menjadi masalah serius bagi gurita. Sampah plastik dapat terperangkap di habitat gurita dan berpotensi menjadi ancaman fisik serta menyebabkan keracunan jika mereka memakan partikel plastik tersebut.
+        Upaya pelestarian gurita melibatkan pengaturan kuota tangkapan dalam perikanan, pendirian kawasan lindung laut yang melindungi habitat penting mereka, pemantauan populasinya secara teratur, dan kampanye edukasi untuk meningkatkan kesadaran masyarakat tentang pentingnya menjaga ekosistem laut yang sehat bagi gurita dan spesies lainnya
+
+    </string>
+
+    <string name="IkanKarang">
+        Ikan karang adalah bagian penting dari ekosistem terumbu karang, yang merupakan salah satu ekosistem paling produktif dan beragam di dunia. Mereka tidak hanya menyediakan habitat bagi ribuan spesies lainnya, tetapi juga memainkan peran penting dalam siklus nutrisi laut dan perlindungan pantai dari erosi. Ancaman terbesar bagi ikan karang datang dari pemanasan global dan pemanasan laut yang menyebabkan bleaching atau pemutihan terumbu karang. Pemanasan ini mengganggu hubungan simbiosis antara karang dan alga zooxanthellae, yang merupakan sumber makanan utama ikan karang. Polusi seperti nutrisi berlebih dari pupuk dan limbah industri juga dapat mempengaruhi kesehatan terumbu karang dan ketersediaan makanan bagi ikan karang. Selain itu, perburuan dan penangkapan ikan yang tidak berkelanjutan dapat mengurangi populasi ikan karang tertentu secara signifikan. Upaya pelestarian untuk ikan karang meliputi rehabilitasi terumbu karang yang rusak,
+        pendirian kawasan lindung laut yang melindungi habitat ikan karang, pengelolaan perikanan yang berkelanjutan, pengurangan polusi laut, dan promosi praktik pariwisata berkelanjutan yang tidak merusak terumbu karang. Pendidikan dan kesadaran masyarakat juga penting untuk meningkatkan pengertian tentang keanekaragaman hayati dan kebutuhan untuk melindungi ekosistem terumbu karang yang rapuh ini
+    </string>
+
+    <string name="Hiu">
+        Hiu adalah predator laut yang memainkan peran penting dalam menjaga keseimbangan ekosistem di perairan tropis dan subtropis. Ancaman utama terhadap hiu berasal dari perburuan yang tidak berkelanjutan untuk sirip dan daging mereka. Sirip hiu sering diambil untuk membuat sup sirip hiu, sebuah hidangan mewah di beberapa budaya, sementara dagingnya digunakan dalam berbagai produk makanan dan obat tradisional. Praktik perburuan ini telah mengarah pada penurunan populasi hiu secara signifikan di seluruh dunia. Selain perburuan langsung, hiu juga rentan terhadap tangkapan sampingan dalam perikanan, di mana mereka sering tertangkap dalam jaring ikan yang sebenarnya ditujukan untuk spesies lain. Upaya konservasi untuk hiu meliputi pelaksanaan larangan perdagangan internasional u
+        ntuk produk hiu yang memiliki nilai komersial tinggi, penegakan hukum yang ketat terhadap praktik perburuan ilegal, pendirian kawasan lindung laut yang melindungi habitat hiu, dan kampanye untuk mengubah persepsi dan praktik konsumen terhadap produk-produk hiu.
+    </string>
+
+>>>>>>> 80e80896fe862b370601fe235dac34257311aaf5
 </resources>
